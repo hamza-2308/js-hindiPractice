@@ -1,0 +1,15 @@
+const accountID=123
+let accountEmail ="hamnaz@gmail.com"
+var accountPassword="111"
+accountCity="islambad"
+
+// accountID=2 not allowed bcs constant bnaya ha uper
+
+accountEmail="hamzuuuu@gmail.com"
+accountPassword="hamnaz"
+accountCity="E-16" 
+console.table([accountEmail,accountPassword,accountCity])
+/*preferable not to use var
+because of issue in block scope and functional scope*/
+
+console.log(accountID);
